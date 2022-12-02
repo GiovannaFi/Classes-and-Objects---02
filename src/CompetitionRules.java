@@ -1,6 +1,5 @@
 public class CompetitionRules {
 
-    private static CompetitionRules rules = new CompetitionRules();
 
     private static String competitionRule1 = "Do not copy and paste from StackOverflow!";
     private static String competitionRule2 = "Learn every day!";
@@ -13,7 +12,4 @@ public class CompetitionRules {
 
     }
 
-    public static CompetitionRules getInstance(){
-        return rules;
-    }
 }

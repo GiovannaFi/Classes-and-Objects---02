@@ -3,14 +3,9 @@ public class Programmer {
     public String programmingLanguage;
     public int yearsOfExperience;
 
-    Programmer(){
-        this.name = name;
-        this.programmingLanguage = programmingLanguage;
-        this.yearsOfExperience = yearsOfExperience;
-    }
 
 
-    public void printProgrammerDetails(){
+    private void printProgrammerDetails(){
         System.out.println(name + " " + programmingLanguage + " " + yearsOfExperience);
     }
 }

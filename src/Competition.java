@@ -35,5 +35,6 @@ public class Competition {
         teamB.printTeamDetails();
 
 
+
     }
 }
